@@ -129,7 +129,7 @@ abstract class BaseSortableBehavior extends Behavior
      */
     public function getSortableCount()
     {
-        return $this->query->orderBy(null)->count();
+        return $this->query->orderBy([])->count();
     }
 
     /**
